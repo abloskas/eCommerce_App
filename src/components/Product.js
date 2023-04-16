@@ -41,9 +41,7 @@ const Product = ({product}) => {
     </a>
     <Card.Text as='div'>
        <div className="my-3">
-
         <Rating as="div" rating={product.rating}/>
-        {/* {(!!product && !!product.rating ? product.rating : '')} from {( !!product && !!product.numReviews ? product.numReviews : '')} reviews */}
        </div>
     </Card.Text>
     <Card.Text as='h3'>
@@ -57,11 +55,10 @@ const Product = ({product}) => {
 
 function Rating({rating}) {
     const text =  ratingStars(rating);
-    // console.log(text);
   return (
     <span className='fa' dangerouslySetInnerHTML={{ __html:  text }}></span>
   )
 }
 
 
-export default Product
+export default Product;
