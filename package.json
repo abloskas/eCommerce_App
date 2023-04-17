@@ -1,0 +1,17 @@
+{
+  "name": "proshop_react",
+  "version": "1.0.0",
+  "description": "ProShop App",
+  "main": "server.js",
+  "scripts": {
+    "nodemon-start": "nodemon --exec npm start",
+    "start": "node api/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashley Bloskas",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
