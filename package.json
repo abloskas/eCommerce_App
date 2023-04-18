@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "ProShop App",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "nodemon-start": "nodemon --exec npm start",
     "start": "node api/server",
