@@ -7,13 +7,17 @@
   "scripts": {
     "nodemon-start": "nodemon --exec npm start",
     "start": "node api/server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "data:import": "node api/seeder",
+    "data:delete": "node api/seeder -d"
   },
   "author": "Ashley Bloskas",
   "license": "MIT",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "mongoose": "^7.0.4",
     "nodemon": "^2.0.22"
   }
 }
